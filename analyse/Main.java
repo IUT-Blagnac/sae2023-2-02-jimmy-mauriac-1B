@@ -8,6 +8,7 @@ public class Main {
         long beforeUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
         String texte = "exemple de texte a classer";
         List<Character> ordre = List.of('c', 't', 'e', 'x', 'a', 'm', 'p', 'l', 's', 'r', 'd');
+        // mettre ici les execution des exercices
         System.out.println(exercice.sobrietePire.SobrietePire20.solution(texte,ordre));
         long endTime = System.nanoTime();
         long afterUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
